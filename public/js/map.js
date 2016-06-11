@@ -62,7 +62,7 @@
         },
 
         removeMarkers: function () {
-            for (i = 0; i < markers.length; i++) {
+            for (var i = 0; i < markers.length; i++) {
                 markers[i].infobox.close();
                 markers[i].marker.close();
                 markers[i].setMap(null);
@@ -115,9 +115,9 @@
 
         if (settings.enableGeolocation) {
             if (navigator.geolocation) {
-                browserSupportFlag = true;
+                var browserSupportFlag = true;
                 navigator.geolocation.getCurrentPosition(function (position) {
-                    initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                    var initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
                     map.setCenter(initialLocation);
                 }, function () {
                     mapOptions.center = new google.maps.LatLng(settings.center.latitude, settings.center.longitude);

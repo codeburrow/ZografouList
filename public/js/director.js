@@ -177,8 +177,8 @@ $(document).ready(function() {
             types: types,
             images: images,
             markerClasses: markerClasses,
-            transparentMarkerImage: '../../assets/img/marker-transparent.png',
-            transparentClusterImage: '../../assets/img/cluster-transparent.png',
+            transparentMarkerImage: 'img/marker-transparent.png',
+            transparentClusterImage: 'img/cluster-transparent.png',
             zoom: 11,
             center: {
                 latitude: 40.67,
@@ -195,8 +195,8 @@ $(document).ready(function() {
             contents: contents,
             types: types,
             images: images,
-            transparentMarkerImage: '../../assets/img/marker-transparent.png',
-            transparentClusterImage: '../../assets/img/cluster-transparent.png',
+            transparentMarkerImage: 'img/marker-transparent.png',
+            transparentClusterImage: 'img/cluster-transparent.png',
             zoom: 11,
             center: {
                 latitude: 40.67,
