@@ -1,0 +1,19 @@
+{
+    "name": "antony/zografou-list",
+    "description": "A web directory that lists all the shops in an area.",
+    "require": {
+        "twig/twig": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZList\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antony Kalogeropoulos",
+            "email": "anthonykalogeropoulos@gmail.com"
+        }
+    ]
+}
