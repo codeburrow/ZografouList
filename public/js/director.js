@@ -164,9 +164,9 @@ $(document).ready(function() {
         var icon_name = icons[Math.floor(Math.random()*icons.length)];
 
         locations.push(get_gps_ranges(40.67, -73.94, 0.08, 0.60));
-        contents.push('<div class="infobox"><div class="infobox-header"><h3 class="infobox-title"><a href="#">Rapid Store Inc.</a></h3><h4 class="infobox-subtitle"><a href="#">Manhattan 5, NYC</a></h4></div><div class="infobox-picture"><a href="#"><img src="../../assets/img/tmp/map-image.jpg" alt=""></a><div class="infobox-price">$ 2,000</div></div></div>');
+        contents.push('<div class="infobox"><div class="infobox-header"><h3 class="infobox-title"><a href="#">Rapid Store Inc.</a></h3><h4 class="infobox-subtitle"><a href="#">Manhattan 5, NYC</a></h4></div><div class="infobox-picture"><a href="#"><img src="img/tmp/map-image.jpg" alt=""></a><div class="infobox-price">$ 2,000</div></div></div>');
         types.push('apartment');
-        images.push('<img src="../../assets/img/markers/' + icon_name + '.png" alt="">');
+        images.push('<img src="img/markers/' + icon_name + '.png" alt="">');
         markerClasses.push(classes[Math.floor(Math.random()*classes.length)])
     }
 
