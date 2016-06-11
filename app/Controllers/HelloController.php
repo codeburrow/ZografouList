@@ -18,4 +18,14 @@ class HelloController extends Controller
     {
         echo $this->twig->render('index.twig');
     }
+
+    public function contact()
+    {
+        echo $this->twig->render('contact.twig');
+    }
+
+    public function postContact()
+    {
+        var_dump($_POST);
+    }
 }
